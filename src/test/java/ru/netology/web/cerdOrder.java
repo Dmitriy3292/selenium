@@ -1,5 +1,6 @@
 package ru.netology.web;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -19,14 +20,13 @@ class cerdOrder {
 
  private WebDriver driver;
 
-@BeforeAll
-static void setUpAll(){
- if (System.getProperty("os.name").contains("Linux")) {
-  System.setProperty("webdriver.chrome.driver", "linux/chromedriver");
- } else {
-  System.setProperty("webdriver.chrome.driver", "win/chromedriver.exe");
+ @BeforeAll
+ public static void setUpAll() {
+
+  WebDriverManager.chromedriver().setup();
+
+
  }
-}
 @BeforeEach
  void setUp2(){    // запускается перед каждым тестом
  ChromeOptions options = new ChromeOptions();
