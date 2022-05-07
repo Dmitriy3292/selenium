@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.netology.web.cerdOrder" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-07T11:01:34" hostname="DESKTOP-5O79L13" time="3.622">
+  <properties/>
+  <testcase name="test()" classname="ru.netology.web.cerdOrder" time="3.622"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 24389
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мая 07, 2022 3:01:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
