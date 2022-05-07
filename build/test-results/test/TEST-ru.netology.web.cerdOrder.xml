@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.web.cerdOrder" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-07T11:11:12" hostname="DESKTOP-5O79L13" time="3.142">
+<testsuite name="ru.netology.web.cerdOrder" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-07T18:33:27" hostname="DESKTOP-LN1BUHI" time="11.608">
   <properties/>
-  <testcase name="test()" classname="ru.netology.web.cerdOrder" time="3.142"/>
+  <testcase name="test()" classname="ru.netology.web.cerdOrder" time="11.608"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 24059
+  <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 11015
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-мая 07, 2022 3:11:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+мая 07, 2022 9:33:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
