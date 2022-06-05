@@ -16,7 +16,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-class cerdOrder {
+class CardOrder {
 
  private WebDriver driver;
 
@@ -47,7 +47,7 @@ class cerdOrder {
  driver.get("http://localhost:9999/");
  List<WebElement> elements= driver.findElements(By.className("input__control"));
  driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("Иван Петров-Иванов");
- elements.get(1).sendKeys("+79173456724");
+ driver.findElement(By.cssSelector("[type=\"tel\"]")).sendKeys("+79867281447");
  driver.findElement(By.className("checkbox__box")).click();
  driver.findElement(By.className("button__content")).click();
 String text = driver.findElement (By.cssSelector("[data-test-id=\"order-success\"]")).getText();
